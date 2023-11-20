@@ -19,7 +19,7 @@ function task2() {
 
     let fruits = new Array('apple', 'strawberry', 'blueberry', 'raspberry', 'lemon');
 
-    console.log(fruits.join('\n'))
+    console.log(fruits.join('\n'));
 
     fruits.forEach(fruit => {
         switch (fruit) {
@@ -88,7 +88,7 @@ function task4() {
 
         if (student.rate < 4) badStudents.push(student);
 
-        meanRate.push(student.rate)
+        meanRate.push(student.rate);
     })
 
     console.log(`Средняя оценка: ${meanRate.reduce((a, b) => a + b) / meanRate.length}`);
@@ -103,9 +103,9 @@ function task4() {
     }
 }
 
-task1()
-task2()
-task3()
-task4()
+task1();
+task2();
+task3();
+task4();
 
 // Задание 5 исправлено непосредственно
